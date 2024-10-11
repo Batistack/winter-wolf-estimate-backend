@@ -142,6 +142,7 @@ const recalculateFinalEstimate = async (estimateId) => {
     const finalTotalDivided = subtotal / parseFloat(estimate.market_cap || 1);
     const totalCost = subtotal + finalTotalDivided;
 
+    
     // Update or insert the final estimate in the database
     const finalEstimate = await db.one(
       `
