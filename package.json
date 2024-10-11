@@ -6,8 +6,8 @@
 "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "db_schema": "psql -U postgres -f db/schema.sql",
-    "db_seed": "psql -U postgres -f db/seed.sql"
+    "db_schema":"psql -h dpg-cs4kb1ggph6c73c3aiog-a.oregon-postgres.render.com -U batistack_development_user -d batistack_development -f db/schema.sql",
+    "db_seed":"psql -h dpg-cs4kb1ggph6c73c3aiog-a.oregon-postgres.render.com -U batistack_development_user -d batistack_development -f db/seed.sql"
   },
   "keywords": [],
   "author": "",

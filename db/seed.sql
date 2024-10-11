@@ -1,5 +1,3 @@
--- Connect to the database
-\c winter_wolf_estimate;
 
 -- Seed the Users table
 INSERT INTO Users (name, username, email, password, role) VALUES
